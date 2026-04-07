@@ -1,35 +1,44 @@
-# apartment-value-analyzer
+# RentCheck AI — “Is This Apartment Worth It?” Analyzer
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+[![Status](https://img.shields.io/badge/status-production-green)](https://github.com/yourusername/rentcheck-ai)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Made With](https://img.shields.io/badge/made%20with-React%20Native-brightgreen)](https://reactnative.dev/)
 
-## Built with v0
+**RentCheck AI** is a mobile application that helps renters determine if an apartment is overpriced, fairly priced, or undervalued. Using AI-generated insights based on rent, city, and square footage, the app provides a quick assessment and comparison points for informed decision-making.  
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+---
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_tGxOOfGhPxzZBONv2Qdm55nLhmpj)
+## Features
+- Input form for monthly rent, city, and square footage  
+- AI-powered verdict: `Overpriced / Fair / Undervalued`  
+- Short explanation and 2–3 comparison insights  
+- Clean, readable UI with bold verdict display  
 
-## Getting Started
+---
 
-First, run the development server:
+## Core Flow
+1. **User Inputs:**  
+   - Monthly rent  
+   - City  
+   - Square footage  
 
+2. **App Outputs:**  
+   - Verdict: `Overpriced / Fair / Undervalued`  
+   - Brief explanation  
+   - Supporting comparison insights  
+
+---
+
+## Tech Stack
+- **React Native** – Mobile app framework  
+- **Expo** – App deployment and testing  
+- **OpenAI API** – AI-generated apartment insights  
+
+---
+
+## Installation & Running Locally
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
-
-<a href="https://v0.app/chat/api/kiro/clone/Nabeel-Farooq/apartment-value-analyzer" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+git clone https://github.com/yourusername/rentcheck-ai.git
+cd rentcheck-ai
