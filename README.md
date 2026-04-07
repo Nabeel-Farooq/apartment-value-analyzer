@@ -40,5 +40,5 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/rentcheck-ai.git
+git clone https://github.com/Nabeel-Farooq/rentcheck-ai.git
 cd rentcheck-ai
