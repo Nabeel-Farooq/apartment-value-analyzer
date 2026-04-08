@@ -11,7 +11,7 @@
 ## Features
 - Input form for monthly rent, city, and square footage  
 - AI-powered verdict: `Overpriced / Fair / Undervalued`  
-- Short explanation and 2–3 comparison insights  
+- Short explanation and 2–3 comparison insight  
 - Clean, readable UI with bold verdict display  
 
 ---
